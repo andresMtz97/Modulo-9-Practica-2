@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		E97D09AE2C474B5500F7B588 /* Modulo_9_Practica_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09AD2C474B5500F7B588 /* Modulo_9_Practica_2App.swift */; };
-		E97D09B02C474B5500F7B588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09AF2C474B5500F7B588 /* ContentView.swift */; };
+		E97D09B02C474B5500F7B588 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09AF2C474B5500F7B588 /* HomeView.swift */; };
 		E97D09B22C474B6400F7B588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97D09B12C474B6400F7B588 /* Assets.xcassets */; };
 		E97D09B52C474B6400F7B588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97D09B42C474B6400F7B588 /* Preview Assets.xcassets */; };
+		E97D09BE2C474C0800F7B588 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09BD2C474C0800F7B588 /* Home.swift */; };
+		E97D09C12C474D4500F7B588 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09C02C474D4500F7B588 /* Drink.swift */; };
+		E97D09C42C474ED100F7B588 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09C32C474ED100F7B588 /* Constants.swift */; };
+		E97D09C72C4848F800F7B588 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09C62C4848F800F7B588 /* DrinkView.swift */; };
+		E97D09C92C4856B300F7B588 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09C82C4856B300F7B588 /* DrinkDetailView.swift */; };
+		E97D09CB2C486DB200F7B588 /* AddDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09CA2C486DB200F7B588 /* AddDrinkView.swift */; };
+		E97D09D22C48B5FE00F7B588 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09D12C48B5FE00F7B588 /* Camera.swift */; };
+		E97D09D42C48B61300F7B588 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09D32C48B61300F7B588 /* CameraPermission.swift */; };
+		E97D09D62C49B9B900F7B588 /* InternetMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97D09D52C49B9B900F7B588 /* InternetMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E97D09AA2C474B5500F7B588 /* Modulo 9 Practica 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modulo 9 Practica 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97D09AD2C474B5500F7B588 /* Modulo_9_Practica_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulo_9_Practica_2App.swift; sourceTree = "<group>"; };
-		E97D09AF2C474B5500F7B588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E97D09AF2C474B5500F7B588 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E97D09B12C474B6400F7B588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E97D09B42C474B6400F7B588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E97D09BD2C474C0800F7B588 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E97D09C02C474D4500F7B588 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		E97D09C32C474ED100F7B588 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E97D09C52C474F6E00F7B588 /* Modulo-9-Practica-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Modulo-9-Practica-2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E97D09C62C4848F800F7B588 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		E97D09C82C4856B300F7B588 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		E97D09CA2C486DB200F7B588 /* AddDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinkView.swift; sourceTree = "<group>"; };
+		E97D09D12C48B5FE00F7B588 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		E97D09D32C48B61300F7B588 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		E97D09D52C49B9B900F7B588 /* InternetMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,13 @@
 		E97D09AC2C474B5500F7B588 /* Modulo 9 Practica 2 */ = {
 			isa = PBXGroup;
 			children = (
+				E97D09D02C48B5ED00F7B588 /* ImagePicker */,
+				E97D09C52C474F6E00F7B588 /* Modulo-9-Practica-2-Info.plist */,
+				E97D09C22C474EC100F7B588 /* Utils */,
+				E97D09BF2C474D1400F7B588 /* Model */,
+				E97D09BC2C474BC700F7B588 /* ViewModel */,
+				E97D09BB2C474BB800F7B588 /* View */,
 				E97D09AD2C474B5500F7B588 /* Modulo_9_Practica_2App.swift */,
-				E97D09AF2C474B5500F7B588 /* ContentView.swift */,
 				E97D09B12C474B6400F7B588 /* Assets.xcassets */,
 				E97D09B32C474B6400F7B588 /* Preview Content */,
 			);
@@ -65,6 +89,51 @@
 				E97D09B42C474B6400F7B588 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E97D09BB2C474BB800F7B588 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E97D09AF2C474B5500F7B588 /* HomeView.swift */,
+				E97D09C62C4848F800F7B588 /* DrinkView.swift */,
+				E97D09C82C4856B300F7B588 /* DrinkDetailView.swift */,
+				E97D09CA2C486DB200F7B588 /* AddDrinkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E97D09BC2C474BC700F7B588 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E97D09BD2C474C0800F7B588 /* Home.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E97D09BF2C474D1400F7B588 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E97D09C02C474D4500F7B588 /* Drink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E97D09C22C474EC100F7B588 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E97D09C32C474ED100F7B588 /* Constants.swift */,
+				E97D09D52C49B9B900F7B588 /* InternetMonitor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E97D09D02C48B5ED00F7B588 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E97D09D12C48B5FE00F7B588 /* Camera.swift */,
+				E97D09D32C48B61300F7B588 /* CameraPermission.swift */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97D09B02C474B5500F7B588 /* ContentView.swift in Sources */,
+				E97D09C42C474ED100F7B588 /* Constants.swift in Sources */,
+				E97D09D62C49B9B900F7B588 /* InternetMonitor.swift in Sources */,
+				E97D09CB2C486DB200F7B588 /* AddDrinkView.swift in Sources */,
+				E97D09B02C474B5500F7B588 /* HomeView.swift in Sources */,
+				E97D09BE2C474C0800F7B588 /* Home.swift in Sources */,
+				E97D09C72C4848F800F7B588 /* DrinkView.swift in Sources */,
+				E97D09C92C4856B300F7B588 /* DrinkDetailView.swift in Sources */,
+				E97D09C12C474D4500F7B588 /* Drink.swift in Sources */,
+				E97D09D42C48B61300F7B588 /* CameraPermission.swift in Sources */,
 				E97D09AE2C474B5500F7B588 /* Modulo_9_Practica_2App.swift in Sources */,
+				E97D09D22C48B5FE00F7B588 /* Camera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +353,8 @@
 				DEVELOPMENT_TEAM = 567FDZM4P9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Modulo-9-Practica-2-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission required to take photos with camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +367,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aamg.Modulo-9-Practica-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,6 +388,8 @@
 				DEVELOPMENT_TEAM = 567FDZM4P9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Modulo-9-Practica-2-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission required to take photos with camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +402,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aamg.Modulo-9-Practica-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
